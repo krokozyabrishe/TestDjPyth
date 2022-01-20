@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+
+*.pyc
+*~
+__pycache__
+myvenv
+
+/static
+.DS_Store
