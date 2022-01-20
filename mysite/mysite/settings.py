@@ -24,10 +24,10 @@ SECRET_KEY = 'django-insecure-uptyujfhp)y+u5#y@o@*@!x(3lo*0(powt5^ernz@rb=r(qr=9
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
+#ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ["krokozyabrishe.pythonanywhere.com"]
-
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = "/TestDjPyth/mysite/static"
+#STATIC_ROOT = os.path.join(BASE_DIR, "static")
 # Application definition
 
 INSTALLED_APPS = [
